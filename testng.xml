@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="org.test.Login" />
+
+			<class name="org.test.User_Module" />
+
+			<class name="org.test.Role_Module" />
+
+			<class name="org.test.city_createandlist" />
+
+			<class name="org.test.City_edit" />
+
+			<class name="org.test.delete_city" />
+
+			<class name="org.test.Store_Module" />
+
+			<class name="org.test.Hub_Module" />
+
+			<class name="org.test.create_lead" />
+
+			<class name="org.test.edit_lead" />
+
+			<class name="org.test.delete_lead" />
+
+			<class name="org.test.Create_delivery_route" />
+
+			<class name="org.test.Edit_delivery_route" />
+
+			<class name="org.test.Delete_delivery_route" />
+
+			<class name="org.test.product_module" />
+
+			<class name="org.test.Product_Category_Module" />
+
+			<class name="org.test.Product_subcategory_module" />
+
+			<class name="org.test.Product_catalogue" />
+
+			<class name="org.test.checkout_occation_module" />
+
+			<class name="org.test.house_account_module" />
+
+			<class name="org.test.House_settings_create" />
+
+			<class name="org.test.House_settings_Edit" />
+
+			<class name="org.test.House_settings_delete" />
+
+			<class name="org.test.Delivery_Schedule" />
+
+			<class name="org.test.Pickup_Schedule" />
+
+			<class name="org.test.Hub_Catalogue_Date_Override_Module" />
+
+			<class name="org.test.Add_Discount_Markup" />
+
+			<class name="org.test.Add_Event_Module" />
+
+			<class name="org.test.create_order_by_phone_call_delivery" />
+
+			<class name="org.test.create_order_by_phone_call_pickup" />
+
+			<class name="org.test.create_order_by_walkin_for_pickup" />
+
+			<class name="org.test.create_order_by_walk_in_for_delivery" />
+
+			<class name="org.test.create_order_by_house_account" />
+
+			<class name="org.test.Customer_Lookup_Module" />
+			
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
